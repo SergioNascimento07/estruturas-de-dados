@@ -7,6 +7,10 @@ export class Node<T> {
         this.content = content
     }
 
+    public getContent(): T {
+        return this.content
+    }
+
     public setPrevNode(node: Node<T>|null): void {
         this.prevNode = node
     }
